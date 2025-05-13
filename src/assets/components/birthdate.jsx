@@ -24,13 +24,15 @@ export function Birthdate()
 
             <input
             className="px-4 py-2 rounded-md border border-gray-300 w-64 
-            placeholder:text-gray-300 bg-[#426286] text-[#19406b] 
+            placeholder:text-[FFFFFF] bg-[#426286] text-[#19406b] 
             shadow-inner focus:outline-none focus:ring-2 focus:ring-[#35c3bd]"
-            placeholder="Your Birth Year"
+            placeholder="Your Birth Year" type="date"
             />
+            
             <div className='flex flex-col items-center space-y-1 p-1'></div>
 
-            <button className='hover:bg-[#615fff] px-24 py-2 rounded-md border text-[white] bg-[#7f95ac]'>Continue</button>
+            <button className='hover:bg-[#3fe0d0] hover:text-[black] px-24 py-2 rounded-md border text-[white] bg-[#7f95ac]'>Continue</button>
+
             </div>
         </div>
     </>
